@@ -1,0 +1,20 @@
+body {
+    background-color: thistle;
+    font: "Inter", sans-serif;
+    color: darkblue;
+}
+
+h1, h2, h3 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+img{
+    width: 400px;
+    border-radius: 20px;
+}
