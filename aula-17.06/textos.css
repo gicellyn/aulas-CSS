@@ -1,0 +1,58 @@
+/* Propriedade de fonte e texto */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 30px;
+    /* hexadecimal - rgb [red, green, blue] - rgba [..., alpacidade-transparência entre 0 e 1]*/
+    color: rgba(193, 14, 14, 0.473);
+    font-size: 2rem;
+}
+/*  - Unid. Absolutas: px, cm, pt, etc - (o valor é independente, constante) 
+    - Unid. Relativas: (depende de algo para definir seu tamanho)
+        vh = viewport heigth (altura tela)
+        vw = viewport width (largura tela) 
+        %  = relativo ao elemento pai 
+        rem = relativo ao elemento raiz - [usa-se mais tamanho da fonte/ 1rem equivale, a depender do navegador, a 16px]
+       
+*/
+
+.quadrado1{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+}
+
+.quadrado2{
+    background-color: aqua;
+    width: 80vw;
+    height: 40vh;
+}
+
+.section2{
+    width: 200px;
+    background-color: pink;
+    height: 600px;
+}
+
+.quadrado3{
+    background-color: tomato;
+    width: 60%;
+    height: 70%; 
+}
+
+.quadrado4{
+    background-color: violet;
+    height: 300px;
+}

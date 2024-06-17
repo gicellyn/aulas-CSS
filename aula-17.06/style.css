@@ -1,0 +1,16 @@
+p{
+    background-color: aqua;
+}
+
+.p2{
+    color: white;
+    background-color: brown;
+}
+
+#p3{
+    background-color: yellow;
+}
+
+.texto-centro{
+    text-align: center;
+}
