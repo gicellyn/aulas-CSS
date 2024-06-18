@@ -1,0 +1,39 @@
+/* Box Model 
+    padding (espaçamento interno)
+    margin (espaçamento externo)
+    boder (borda ao redor do elemento)
+*/
+
+.box1{
+    background-color: chocolate;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box2{
+    background-color: aquamarine;
+    /* TOP RIGHT BOTTOM LEFT */
+    padding: 10px 15px 20px 15px;
+    /* margin: 30px 10px 10px 10px; */
+    /* VERTICAL HORIZONTAL */
+    margin: 20px 10px;
+}
+
+.box3{
+    background-color: violet;
+    /* espeçura - estilo - cor */
+    border: 5px solid red;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.box4{
+    background-color: seagreen;
+    margin: 10px;
+    padding: 30px;
+    border: 5px solid yellow;
+    width: 200px;
+    height: 400px;
+    /* com o atributo box-sizing sendo borderbox, vai dimencionar para ficar com altura e largura pré-definidos no seletor */
+    box-sizing: border-box;
+}

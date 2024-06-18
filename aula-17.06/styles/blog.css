@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.secao {
+    /* para centralizar com auto é necessário ter largura */
+    width: 400px;
+    margin: 16px auto;
+    background: linear-gradient(65deg, green, lightgreen, lightblue, rgb(0, 81, 255));
+}
+
+/* box-shadow: x, y, desfoque, spread color */
+.figura {
+    width: 150px;
+    box-shadow: 5px 5px 5px 0px grey;
+}
+
+/* Combinador de descendente */
+.secao p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
